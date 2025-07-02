@@ -1,0 +1,4 @@
+// This sets python interpretor which is available in the virtual environment location (but not the python which is in global/default python location)
+{
+  "python.pythonPath": "venv\\Scripts\\python.exe"
+}

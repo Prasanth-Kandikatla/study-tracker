@@ -1,0 +1,5 @@
+#Tools that are used in the projects, one can install these by using pip
+
+streamlit
+pandas
+sqlalchemy
