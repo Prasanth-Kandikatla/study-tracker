@@ -67,11 +67,11 @@ Use this to submit new study entries via a user-friendly UI:
 ```bash
 streamlit run streamlit_log_session.py
 ```
-You’ll be able to enter:
+#### You’ll be able to enter:
 
-  Topic
-  Duration
-  Date
+  Topic,
+  Duration,
+  Date,
   Notes
 
 Automatically saves to study.db.
@@ -81,6 +81,7 @@ View your study patterns
 ```bash
 streamlit run dashboard.py
 ```
-It will show:
+#### It will show:
 Total study time per topic (bar chart)
+
 Daily study duration over time (line chart)
