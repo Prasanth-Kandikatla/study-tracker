@@ -1,6 +1,8 @@
 # 📚 StudyTracker
 
-A simple and effective application to **log**, **store**, and **analyze your study sessions** using Python, SQLite, and pandas. Optionally, visualize your progress with a Streamlit dashboard.
+A simple and effective application to **log**, **store**, and **analyze your study sessions** using Python, SQLite, and pandas. Optionally, visualize your progress with a Streamlit dashboard. I will be adding more features. 
+
+Pull requests are welcome! Whether it's a bug fix, feature, or dashboard enhancement — feel free to contribute.
 
 ---
 
@@ -85,3 +87,9 @@ streamlit run dashboard.py
 Total study time per topic (bar chart)
 
 Daily study duration over time (line chart)
+
+### 3. Export the data
+You can export the data by downloading the "Study Sessions" table for your review.
+
+
+ 
