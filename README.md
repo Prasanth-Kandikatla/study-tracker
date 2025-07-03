@@ -2,6 +2,29 @@
 
 A simple and effective application to **log**, **store**, and **analyze your study sessions** using Python, SQLite, and pandas. Optionally, visualize your progress with a Streamlit dashboard. I will be adding more features. 
 
+## 🧰 Tech Stack
+
+| Layer                | Technology        | Purpose                                                                 |
+|----------------------|-------------------|-------------------------------------------------------------------------|
+| **Frontend / UI**    | [Streamlit](https://streamlit.io) | Web interface for logging and visualizing study sessions                |
+| **Backend (Logic)**  | **Python**        | Core programming language for database operations and data processing   |
+| **Database**         | **SQLite**        | Lightweight, file-based database for persistent storage of sessions     |
+| **Data Analysis**    | [pandas](https://pandas.pydata.org/) | Manipulating and summarizing study data                                 |
+| **Visualization**    | Streamlit Charts / `matplotlib` / `seaborn` *(optional)* | Plotting data in dashboards                                             |
+| **Virtual Environment** | `venv`         | Isolated Python environment for dependency management                   |
+| **Dependency Management** | `pip` + `requirements.txt` | Installing and tracking Python packages                                |
+| **Data Export**      | `pandas.to_csv()` + `st.download_button` | Downloading study logs as CSV                                           |
+
+### 🐍 Python Packages Used
+
+```bash
+streamlit
+pandas
+# Optional extras:
+matplotlib
+seaborn
+```
+
 Pull requests are welcome! Whether it's a bug fix, feature, or dashboard enhancement — feel free to contribute.
 
 ---
